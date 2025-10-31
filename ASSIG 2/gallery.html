@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TechVerse</title>
+     
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous" />
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+       
+  
+<style>
+.img-fluid{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+.img-fluid:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 576px){
+  .img-fluid{
+      height: 150px;
+  }
+}
+</style>
+</head>
+   
+<body>
+
+    <nav class="navbar sticky-top bg-body-tertiary">
+
+  <div class="container-fluid mt">
+      <div class="d-flex justify-content-end">
+        <ul class="nav" style=" font-weight: italic;">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="home.html">Home</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="services.html">Services</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#footer">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+
+    <header class="bg-body text-center py-3 mb-4">
+      <div class="container">
+        <h1 class="fw-dark">TechVerse Gallery</h1>
+        <p class="lead">The visual vast possibilities of tech.</p>
+      </div>
+      </header>
+    
+    <main class="container my-5">
+        <div class="row g-4">
+  <div class="col-6 col-md-4 col-lg-4">
+<img src="./images/0x0.webp" class="img-fluid rounded" alt="tech">
+
+</div>
+ <div class="col-6 col-md-4 col-lg-4">
+<img src="./images/01.jpg" class="img-fluid rounded" alt="tech">
+ </div>
+<div class="col-6 col-md-4 col-lg-4">
+<img src="./images/02.jpg" class="img-fluid rounded" alt="tech">
+</div>
+
+<div class="col-6 col-md-4 col-lg-4">
+<img src="./images/03.jpg" class="img-fluid rounded" alt="tech">
+</div>
+ </div>
+  
+
+      <div class="row g-4 my-4">
+  <div class="col-6 col-md-4 col-lg-4">
+<img src="./images/04.jpg" class="img-fluid rounded" alt="tech">
+<p class="text-dark">
+   
+</p>
+</div>
+ <div class="col-6 col-md-4 col-lg-4">
+<img src="./images/05.jpg" class="img-fluid rounded" alt="tech">
+ </div>
+<div class="col-6 col-md-4 col-lg-4">
+<img src="./images/06.jpg" class="img-fluid rounded" alt="tech">
+</div>
+
+<div class="col-6 col-md-4 col-lg-4">
+<img src="./images/07.jpg" class="img-fluid rounded" alt="tech">
+</div>
+    </div>
+
+</main>
+       <footer class="bg-info text-white text-center py-4" id="footer">
+           <p>&copy; 2025 TechVerse. All rights reserved.</p> 
+           <p>Reach us via:</p>
+           <div class="social-icons" style="display: inline-block; margin-left: 15px;">
+     <a href="https://github.com/prisih01" target="_blank" title="GitHub"
+        style="color: #0d0c0c; margin: 0 8px; font-size: 1.5em; transition: color 0.2s;">
+         <i class="fab fa-github"></i>
+     </a>
+     <a href="https://www.pinterest.com" target="_blank" title="Pinterest"
+        style="color: #e60023; margin: 0 8px; font-size: 1.5em; transition: color 0.2s;">
+         <i class="fab fa-pinterest"></i>
+     </a>
+     <a href="https://www.Instagram.com/" target="_blank" title="Instagram"
+        style="color: #e42514; margin: 0 8px; font-size: 1.5em; transition: color 0.2s;">
+         <i class="fab fa-instagram"></i>
+     </a>
+     <style>
+         .social-icons a:hover {
+          color: #ff9800 ;
+          transform: scale(1.2);
+         }
+         .social-icons a {
+          text-decoration: none;
+          display: inline-block;
+          vertical-align: middle;
+         }
+     </style>
+     </div>
+          
+          </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-ENjdO4Dr2bkBIFxQpeoA6V6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+          crossorigin="anonymous"></script>
+</body>
+</html>
